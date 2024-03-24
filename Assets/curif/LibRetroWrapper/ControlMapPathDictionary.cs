@@ -25,7 +25,8 @@ public static class ControlMapPathDictionary
         // Left VR controller mappings
         { "quest-x", "<XRController>{LeftHand}/primaryButton" }, //primaryButton
         { "quest-y", "<XRController>{LeftHand}/secondaryButton" },
-        { "quest-start", "<OculusTouchController>/start" },
+        //{ "quest-start", "<OculusTouchController>/start" },
+        { "quest-start", "<XRController>{LeftHand}/system" },
         { "quest-left-grip", "<XRController>{LeftHand}/gripButton" },
         { "quest-left-trigger", "<XRController>{LeftHand}/trigger" },
         //{ "quest-left-trigger", "<OculusTouchController>{LeftHand}/triggerPressed" },
